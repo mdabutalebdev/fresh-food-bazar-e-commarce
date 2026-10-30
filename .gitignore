@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Env files (keep .env.example)
+.env*.local
+**/.env.local
+
+# Build output
+.next/
+**/.next/
+dist/
+**/dist/
+out/
+**/out/
+
+# Local uploads (served from ./uploads when Cloudinary is off)
+uploads/
+**/uploads/
+
+# Logs / stale build reports
+*.log
+build_errors.txt
+type-errors.txt
+tsc_errors.txt
+
+# Misc
+.DS_Store
+Thumbs.db
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
